@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class methodde1 {
+public class bookingHotel{
     public static void main(String[] args) {
 
     }
