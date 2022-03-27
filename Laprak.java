@@ -1,6 +1,6 @@
-public class Laprak {
-  package Tugas;
+package Tugas;
 import java.util.Scanner;
+
 public class Laprak {
     public static void pembukaan(){
         System.out.println("TUGAS MODUL 4 Kelompok 11");
