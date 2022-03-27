@@ -53,7 +53,23 @@ public class Laprak {
                 kamar = "Presidential Room";
                 break;
           }
-          
-          
-      
+          //output
+            System.out.println("      .... Struck Pesanan ....      ");
+            System.out.println("Nama          : " + nama);
+            System.out.println("Alamat        : " + alamat);
+            System.out.println("Lama Inap     : " + lama);
+            System.out.println("Tipe Room     : " + kamar);
+            System.out.println(" ");
+            System.out.println("# Pembayaran ");
+            System.out.println("Harga         : " + harga);
+            int total = lama * harga;
+            System.out.println("Total         : " + total);
+            System.out.print("Bayar         : ");
+            int byr = dataIn.nextInt();
+            int kmbl = byr - total;
+            System.out.println("Kembalian     : " + kmbl);
+            System.out.println(" ");
+            System.out.println(object.penutup(nama));
+        }
+    }
 }
