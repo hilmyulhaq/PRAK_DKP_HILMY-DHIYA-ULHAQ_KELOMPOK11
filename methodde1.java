@@ -10,7 +10,12 @@ public class bookingHotel{
         System.out.println("SELAMAT DATANG DI BOOKING HOTEL KAMI");
         System.out.println("Disini Kami Menyediakan Berbagai Jenis Kamar");
     }
+        public static int hitung(int malam, int tipe) {
+        int total = malam*tipe;
+        return total;
+    }
 
-            }
+
+}
 
 
