@@ -1,4 +1,4 @@
-public class methode {
+public class method {
     public void menu(){
         //Menu
         System.out.println("-----------------------------------");
