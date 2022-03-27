@@ -11,7 +11,7 @@ public class bookingHotel{
         System.out.println("Disini Kami Menyediakan Berbagai Jenis Kamar");
         
         
-        System.out.print("berapa malam? = ");
+        System.out.print("berapa malam?  = ");
         int malam = in.nextInt();
         System.out.print("tipe kamar berapa? = ");
         int tipe = in.nextInt();
@@ -25,6 +25,7 @@ public class bookingHotel{
     }
 
 
+    
 }
 
 
